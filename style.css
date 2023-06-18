@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --clr-primary-dark_blue:hsl(238, 29%, 16%);
+    --clr-primary-soft_red: hsl(14, 88%, 65%);
+    --clr-gradient-violet: hsl(273, 75%, 66%);
+    --clr-gradient-blue:hsl(240, 73%, 65%);
+    --clr-neutral-very_dark_grayish_blue:hsl(237, 12%, 33%);
+    --clr-neutral-dark_grayish_blue:hsl(240, 6%, 50%);
+}
+
+
+*{
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(var(--clr-gradient-violet) 13%, var(--clr-gradient-blue));
+}
+
+.faq{
+  background-color: white;
+  max-width: 360px;
+  border-radius: 24px;
+  position: relative;
+}
+
+/*Mobile illustrations*/
+.faq::before{
+  content: "";
+  background:url(./images/illustration-woman-online-mobile.svg)no-repeat;
+  width: 268px;
+  height: 180px;
+  position: absolute;
+  top: 0;
+  left:50%;
+  transform: translate(-55%,-55%);
+}
+
+.faq::after{
+  content: "";
+  background:url(./images/bg-pattern-mobile.svg)no-repeat;
+  width:268px;
+  height: 180px;
+  position: absolute;
+  top: 6.5rem;
+  left:50%;
+  transform: translate(-45%,-53%);
+}
+
+/*Keyframes*/
+@keyframes boxHop{
+  from{
+    transform: translate(-55%,-55%);
+  }
+  50%{
+    transform: translate(-55%,-57.5%);
+  }
+  to{
+    transform: translate(-55%,-55%);
+  }
+}
