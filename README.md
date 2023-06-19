@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jose-jimmy/FAQ-Accordion-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/jose-jimmy/FAQ-Accordion-Card)
+- Live Site URL: [Live site URL](https://faq-accordion-card-beryl-five.vercel.app/)
 
 ## My process
 
